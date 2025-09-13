@@ -1,4 +1,5 @@
 import About from "./components/About"
+import AnimatedTitle from "./components/AnimatedTitle"
 import Contact from "./components/Contact"
 import Features from "./components/Features"
 import Footer from "./components/Footer"

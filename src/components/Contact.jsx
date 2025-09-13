@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
         <div
           className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto 
-          md:right-10 lg:top-20 lg:w-80 z-10"
+          md:right-10 lg:top-20 lg:w-80 z-0"
         >
           <ImageClipBox
             src="/img/swordman-partial.webp"
@@ -41,7 +41,7 @@ const Contact = () => {
             clipClass="sword-man-clip-path md:scale-125"
           />
         </div>
-        <div className="flex flex-col items-center text-center z-50">
+        <div className="flex flex-col items-center text-center z-10">
           <p className="mb-10 font-general text-[10px] uppercase">
             Join Zentry
           </p>
