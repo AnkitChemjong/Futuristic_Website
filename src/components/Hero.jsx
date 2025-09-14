@@ -27,7 +27,7 @@ const Hero = () => {
     setCurrentIndex(upcomingVideoIndex);
   };
   useEffect(()=>{
-   if(loadedVideos === totalVideos-1){
+   if(loadedVideos === totalVideos-2){
     setIsLoading(false);
    }
   },[loadedVideos])
